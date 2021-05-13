@@ -1,9 +1,12 @@
 .App {
-  text-align: center;
+
+    text-align: center;
+    color: coral;
+
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -15,7 +18,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +38,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 20px 1em 20px 1em;
+}
+
+.styleForCityList{
+    color: blueviolet;
+    text-decoration: underline;
+    font-weight: bold;
 }
